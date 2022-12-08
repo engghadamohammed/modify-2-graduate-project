@@ -1,0 +1,38 @@
+
+.main_ifo{
+    background-color: rgba(248, 248, 248, 0.981);
+}
+
+.header_info{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 35px;
+    color:rgb(80, 229, 43);
+    
+}
+.header_info::after{
+    content: "";
+    width: 10%;
+    height: 2px;
+    display: block;
+    background-color:rgb(80, 229, 43);
+    position: absolute;
+}
+.form_inf label,
+.Check_box h5,
+.Radios h5
+{
+ font-weight: 700;
+ font-style: normal;
+ 
+ 
+}
+.Check_box{
+    background-color:rgba(234, 241, 232, 0.5) ;
+    padding: 10px;
+    margin-left: 28px;
+}
+.Radios{
+   
+    padding: 10px; 
+}
